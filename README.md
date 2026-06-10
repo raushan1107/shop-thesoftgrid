@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🧵 The Soft Grid — shop-thesoftgrid
+=======
+# 🧵 The Soft Grid — shop-thesoftgrid | thesoftgrid.com
+>>>>>>> 490838758abd5fb475039a8165de55bb1b3a7c97
 
 > **Premium oversized T-shirts & corporate gifting.** Custom printed. Factory direct. Pan India.
 
@@ -142,6 +146,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
+<<<<<<< HEAD
 ### 4. Admin Panel
 
 Navigate to [http://localhost:3000/admin](http://localhost:3000/admin) and enter your `ADMIN_PASSWORD`.
@@ -167,6 +172,29 @@ Run the SQL from `supabase/schema.sql` in your Supabase SQL editor to create:
 # Build
 npm run build
 
+=======
+---
+
+## 🗄️ Database Setup
+
+Run the SQL from `supabase/schema.sql` in your Supabase SQL editor to create:
+
+- `users` — mobile-first user accounts
+- `otps` — OTP records with expiry
+- `products` — full product catalog
+- `orders` — orders with status history + UTR tracking
+
+---
+
+## 📦 Deployment
+
+### Azure App Service
+
+```bash
+# Build
+npm run build
+
+>>>>>>> 490838758abd5fb475039a8165de55bb1b3a7c97
 # The GitHub Actions workflow handles auto-deploy on push to main
 # See .github/workflows/azure-deploy.yml
 ```
@@ -211,7 +239,11 @@ Order status updates → user tracks via /account
 
 ## 👨‍💻 Developer
 
+<<<<<<< HEAD
 **Raushan**  
+=======
+**Raushan Ranjan**  
+>>>>>>> 490838758abd5fb475039a8165de55bb1b3a7c97
 Microsoft Certified Trainer (MCT)  
 Founder, [RR Skillverse](https://rrskillverse.in)
 
@@ -230,4 +262,8 @@ Not open for redistribution or commercial use.
 
 <div align="center">
   <sub>Built with ☕ and late nights by <a href="https://github.com/raushan1107">Raushan</a> · Noida, India</sub>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> 490838758abd5fb475039a8165de55bb1b3a7c97
