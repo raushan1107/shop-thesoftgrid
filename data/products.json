@@ -1,0 +1,314 @@
+[
+  {
+    "id": "tsg-001",
+    "slug": "classic-oversized-black-220",
+    "name": "Classic Oversized — Black",
+    "category": "Oversized",
+    "gsm": 220,
+    "fit": "Loose / Oversized",
+    "material": "100% Cotton",
+    "printOptions": ["Chest Print", "All-Over", "Embroidery"],
+    "colors": ["black", "white", "terracotta"],
+    "price": 280,
+    "moq": 50,
+    "tags": ["oversized", "cotton", "220gsm", "black", "bestseller"],
+    "description": "Our most popular drop-shoulder silhouette. Heavy 220 GSM cotton, pre-shrunk, structured collar. Built for print. The go-to blank canvas for brands, events, and collectives.",
+    "images": ["/images/placeholder-1.jpg", "/images/placeholder-2.jpg", "/images/placeholder-3.jpg", "/images/placeholder-4.jpg"],
+    "isNew": true,
+    "isFeatured": true,
+    "printType": "Chest Print",
+    "reviews": [
+      {
+        "name": "Rahul S.",
+        "rating": 5,
+        "comment": "Quality is insane for the price. Ordered 100 for our startup event — everyone was hyped.",
+        "date": "2026-03-10"
+      },
+      {
+        "name": "Priya M.",
+        "rating": 5,
+        "comment": "The 220 GSM weight feels premium. Our brand merch has never looked this good.",
+        "date": "2026-02-22"
+      },
+      {
+        "name": "Arjun K.",
+        "rating": 4,
+        "comment": "Great fabric, true to size. Print quality was sharp and didn't crack after washes.",
+        "date": "2026-01-15"
+      }
+    ]
+  },
+  {
+    "id": "tsg-002",
+    "slug": "classic-oversized-white-220",
+    "name": "Classic Oversized — White",
+    "category": "Oversized",
+    "gsm": 220,
+    "fit": "Loose / Oversized",
+    "material": "100% Cotton",
+    "printOptions": ["Chest Print", "All-Over", "Embroidery"],
+    "colors": ["white", "black", "olive", "sand"],
+    "price": 280,
+    "moq": 50,
+    "tags": ["oversized", "cotton", "220gsm", "white"],
+    "description": "Same legendary drop-shoulder cut, now in clean white. Pre-washed for dimensional stability. Perfect base for vibrant all-over prints or bold chest graphics.",
+    "images": ["/images/placeholder-2.jpg", "/images/placeholder-1.jpg", "/images/placeholder-3.jpg", "/images/placeholder-4.jpg"],
+    "isNew": false,
+    "isFeatured": true,
+    "printType": "Chest Print",
+    "reviews": [
+      {
+        "name": "Sneha T.",
+        "rating": 5,
+        "comment": "Pure white that stays white — minimal shrinkage even after multiple washes.",
+        "date": "2026-03-01"
+      },
+      {
+        "name": "Vikram R.",
+        "rating": 4,
+        "comment": "Perfect for our college fest. Ordered 200 pieces, delivered on time.",
+        "date": "2026-02-10"
+      },
+      {
+        "name": "Aditi P.",
+        "rating": 5,
+        "comment": "The all-over print popped incredibly on this white base. Factory-direct pricing is unbeatable.",
+        "date": "2025-12-20"
+      }
+    ]
+  },
+  {
+    "id": "tsg-003",
+    "slug": "drop-shoulder-terracotta-200",
+    "name": "Drop Shoulder — Terracotta",
+    "category": "Oversized",
+    "gsm": 200,
+    "fit": "Boxy / Drop Shoulder",
+    "material": "100% Cotton",
+    "printOptions": ["Chest Print", "No Print"],
+    "colors": ["terracotta", "sand", "olive"],
+    "price": 260,
+    "moq": 50,
+    "tags": ["oversized", "cotton", "200gsm", "terracotta", "earthy"],
+    "description": "Earthy terracotta in a wide boxy silhouette. 200 GSM pre-shrunk cotton with a soft hand-feel. Ships print-ready or as a blank for your own production.",
+    "images": ["/images/placeholder-3.jpg", "/images/placeholder-4.jpg", "/images/placeholder-1.jpg", "/images/placeholder-2.jpg"],
+    "isNew": true,
+    "isFeatured": false,
+    "printType": "Chest Print",
+    "reviews": [
+      {
+        "name": "Rohan D.",
+        "rating": 5,
+        "comment": "The terracotta colour is rich and earthy — exactly what we needed for our streetwear label.",
+        "date": "2026-04-05"
+      },
+      {
+        "name": "Meera J.",
+        "rating": 4,
+        "comment": "Boxy fit is true to style. Lightweight enough for summer wear.",
+        "date": "2026-03-18"
+      },
+      {
+        "name": "Karan B.",
+        "rating": 5,
+        "comment": "Ordered blanks, did our own printing. Fabric held the ink perfectly.",
+        "date": "2026-02-28"
+      }
+    ]
+  },
+  {
+    "id": "tsg-004",
+    "slug": "oversized-navy-240",
+    "name": "Heavyweight Oversized — Navy",
+    "category": "Oversized",
+    "gsm": 240,
+    "fit": "Relaxed Oversized",
+    "material": "100% Cotton",
+    "printOptions": ["Chest Print", "Embroidery", "All-Over"],
+    "colors": ["navy", "black", "olive"],
+    "price": 320,
+    "moq": 50,
+    "tags": ["oversized", "cotton", "240gsm", "navy", "heavyweight"],
+    "description": "Our heaviest weight — 240 GSM structured cotton for brands that want a substantial, premium feel. Holds shape perfectly. Ideal for embroidery and high-detail prints.",
+    "images": ["/images/placeholder-4.jpg", "/images/placeholder-3.jpg", "/images/placeholder-2.jpg", "/images/placeholder-1.jpg"],
+    "isNew": true,
+    "isFeatured": true,
+    "printType": "Embroidery",
+    "reviews": [
+      {
+        "name": "Dev S.",
+        "rating": 5,
+        "comment": "This is what a premium blank feels like. The 240 GSM weight is exceptional.",
+        "date": "2026-04-12"
+      },
+      {
+        "name": "Neha K.",
+        "rating": 5,
+        "comment": "Ordered for a corporate gifting project. Embroidery quality was flawless.",
+        "date": "2026-03-25"
+      },
+      {
+        "name": "Anil V.",
+        "rating": 4,
+        "comment": "Heavy and structured. Exactly what you'd expect at this GSM.",
+        "date": "2026-02-14"
+      }
+    ]
+  },
+  {
+    "id": "tsg-005",
+    "slug": "graphic-tee-abstract-180",
+    "name": "Graphic Tee — Abstract Waves",
+    "category": "Graphic Tee",
+    "gsm": 180,
+    "fit": "Regular / Slightly Oversized",
+    "material": "100% Cotton",
+    "printOptions": ["Chest Print", "All-Over"],
+    "colors": ["black", "white"],
+    "price": 240,
+    "moq": 50,
+    "tags": ["graphic", "cotton", "180gsm", "abstract", "artsy"],
+    "description": "Lightweight 180 GSM graphic tee designed for all-day comfort. Pre-loaded with an abstract wave print or order as blank canvas. Slim-to-regular fit with ribbed collar.",
+    "images": ["/images/placeholder-1.jpg", "/images/placeholder-3.jpg", "/images/placeholder-2.jpg", "/images/placeholder-4.jpg"],
+    "isNew": true,
+    "isFeatured": true,
+    "printType": "All-Over",
+    "reviews": [
+      {
+        "name": "Zara H.",
+        "rating": 5,
+        "comment": "The all-over print quality is restaurant-grade. Super light for summer.",
+        "date": "2026-04-20"
+      },
+      {
+        "name": "Sahil M.",
+        "rating": 4,
+        "comment": "Great for events. Lightweight, vibrant print, comfortable fit.",
+        "date": "2026-03-30"
+      },
+      {
+        "name": "Tina R.",
+        "rating": 5,
+        "comment": "My whole team wore these at the launch. Got so many compliments.",
+        "date": "2026-02-18"
+      }
+    ]
+  },
+  {
+    "id": "tsg-006",
+    "slug": "graphic-tee-city-vibes-200",
+    "name": "Graphic Tee — City Vibes",
+    "category": "Graphic Tee",
+    "gsm": 200,
+    "fit": "Regular",
+    "material": "100% Cotton",
+    "printOptions": ["Chest Print", "All-Over"],
+    "colors": ["black", "white", "navy"],
+    "price": 260,
+    "moq": 50,
+    "tags": ["graphic", "cotton", "200gsm", "urban", "city"],
+    "description": "Urban-inspired graphic tee in 200 GSM mid-weight cotton. Structured ribbed collar, double-needle hems. Order with our City Vibes graphic or with your own custom artwork.",
+    "images": ["/images/placeholder-2.jpg", "/images/placeholder-1.jpg", "/images/placeholder-4.jpg", "/images/placeholder-3.jpg"],
+    "isNew": false,
+    "isFeatured": true,
+    "printType": "Chest Print",
+    "reviews": [
+      {
+        "name": "Kabir P.",
+        "rating": 5,
+        "comment": "Mid-weight cotton with a great drape. The chest print registration was pixel-perfect.",
+        "date": "2026-04-08"
+      },
+      {
+        "name": "Ananya S.",
+        "rating": 4,
+        "comment": "Solid fabric and color accuracy. Will order again for our next drop.",
+        "date": "2026-03-12"
+      },
+      {
+        "name": "Ritesh T.",
+        "rating": 5,
+        "comment": "Fast turnaround and great quality control. Every piece was consistent.",
+        "date": "2026-01-28"
+      }
+    ]
+  },
+  {
+    "id": "tsg-007",
+    "slug": "essential-polo-black-200",
+    "name": "Essential Polo — Black",
+    "category": "Polo",
+    "gsm": 200,
+    "fit": "Regular",
+    "material": "100% Pique Cotton",
+    "printOptions": ["Chest Print", "Embroidery", "No Print"],
+    "colors": ["black", "white", "navy", "olive"],
+    "price": 320,
+    "moq": 50,
+    "tags": ["polo", "pique", "200gsm", "corporate", "formal"],
+    "description": "Classic pique polo in 200 GSM cotton. Three-button placket, ribbed collar and cuffs. The standard for corporate gifting, team uniforms, and brand merchandise.",
+    "images": ["/images/placeholder-3.jpg", "/images/placeholder-1.jpg", "/images/placeholder-2.jpg", "/images/placeholder-4.jpg"],
+    "isNew": false,
+    "isFeatured": false,
+    "printType": "Embroidery",
+    "reviews": [
+      {
+        "name": "Ravi L.",
+        "rating": 5,
+        "comment": "Perfect for our office uniform program. Embroidery quality was impeccable.",
+        "date": "2026-03-22"
+      },
+      {
+        "name": "Deepa M.",
+        "rating": 5,
+        "comment": "Our employees loved these. Premium feel at a factory-direct price.",
+        "date": "2026-02-08"
+      },
+      {
+        "name": "Sandeep G.",
+        "rating": 4,
+        "comment": "Good quality, structured collar holds its shape well after washes.",
+        "date": "2025-12-10"
+      }
+    ]
+  },
+  {
+    "id": "tsg-008",
+    "slug": "essentials-basic-tee-sand-180",
+    "name": "Essentials Basic — Sand",
+    "category": "Essentials",
+    "gsm": 180,
+    "fit": "Regular",
+    "material": "100% Cotton",
+    "printOptions": ["Chest Print", "No Print"],
+    "colors": ["sand", "white", "black", "terracotta"],
+    "price": 220,
+    "moq": 50,
+    "tags": ["essentials", "cotton", "180gsm", "sand", "minimal"],
+    "description": "No-frills essentials tee in warm sand. 180 GSM lightweight cotton for everyday wear. Clean construction, minimal design. The staple blank your wardrobe needs.",
+    "images": ["/images/placeholder-4.jpg", "/images/placeholder-2.jpg", "/images/placeholder-1.jpg", "/images/placeholder-3.jpg"],
+    "isNew": false,
+    "isFeatured": false,
+    "printType": "No Print",
+    "reviews": [
+      {
+        "name": "Priya A.",
+        "rating": 4,
+        "comment": "Perfect lightweight tee. The sand colour is exactly as shown.",
+        "date": "2026-04-01"
+      },
+      {
+        "name": "Harsh S.",
+        "rating": 4,
+        "comment": "Great blanks for our printing studio. Consistent quality batch after batch.",
+        "date": "2026-03-05"
+      },
+      {
+        "name": "Pooja N.",
+        "rating": 5,
+        "comment": "Super comfortable, minimal and clean. Exactly what I ordered for our merch store.",
+        "date": "2026-01-20"
+      }
+    ]
+  }
+]

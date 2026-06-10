@@ -1,65 +1,98 @@
-import Image from "next/image";
+import Hero from '@/components/home/Hero'
+import MarqueeStrip from '@/components/home/MarqueeStrip'
+import CategoryToggle from '@/components/home/CategoryToggle'
+import InstagramFeed from '@/components/home/InstagramFeed'
+import WhatsAppFloat from '@/components/home/WhatsAppFloat'
 
-export default function Home() {
+const stats = [
+  { number: '500+', label: 'Kits Delivered' },
+  { number: '50+', label: 'Corporate Clients' },
+  { number: '25', label: 'Min. Kit Order' },
+  { number: '7 days', label: 'Avg. Delivery' },
+]
+
+const whyUs = [
+  {
+    emoji: '🎨',
+    title: 'Custom Branding Included',
+    desc: 'Your logo, your colours, your identity — on every piece. No extra design fee.',
+  },
+  {
+    emoji: '👁️',
+    title: 'Sample Before You Commit',
+    desc: 'We produce a physical sample before bulk production. See it, approve it, then we scale.',
+  },
+  {
+    emoji: '🚚',
+    title: 'PAN India Delivery',
+    desc: 'We ship to every pin code. Tracked, insured, and handled with care.',
+  },
+  {
+    emoji: '⚡',
+    title: '5–10 Day Production',
+    desc: 'Fast turnaround without cutting corners. Production starts the day after approval.',
+  },
+  {
+    emoji: '🤝',
+    title: 'One Point of Contact',
+    desc: 'One dedicated person from quote to delivery. No back-and-forth between departments.',
+  },
+  {
+    emoji: '📦',
+    title: 'Flexible Volumes',
+    desc: 'From 25 to 5,000+ pieces. We scale with your business, not the other way around.',
+  },
+]
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      <Hero />
+      <MarqueeStrip />
+      <CategoryToggle />
+
+      {/* Stats Bar */}
+      <section className="bg-sg-ink border-t border-sg-dark2">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            {stats.map((s) => (
+              <div key={s.label} className="text-center">
+                <p className="font-display text-white text-3xl sm:text-4xl">{s.number}</p>
+                <p className="text-sg-muted text-xs mt-1 tracking-wide">{s.label}</p>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Why Us */}
+      <section className="bg-sg-cream border-t border-sg-border py-16 px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-10">
+            <p className="text-sg-sage text-sm font-medium tracking-wide mb-2">Why The Soft Grid</p>
+            <h2
+              className="font-display text-sg-ink leading-tight"
+              style={{ fontSize: 'clamp(28px, 4vw, 40px)' }}
+            >
+              Built for business.
+              <br />
+              <em className="italic">Designed for people.</em>
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {whyUs.map((item) => (
+              <div key={item.title} className="bg-white rounded-2xl border border-sg-border p-6 hover:shadow-md transition-shadow">
+                <span className="text-2xl mb-4 block">{item.emoji}</span>
+                <h3 className="font-semibold text-sg-ink text-sm mb-2">{item.title}</h3>
+                <p className="text-sg-ink2 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </main>
-    </div>
-  );
+      </section>
+
+      <InstagramFeed />
+      <WhatsAppFloat />
+    </>
+  )
 }
